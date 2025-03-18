@@ -1,1 +1,11 @@
-GET http://localhost:3000/posts
+GET http://localhost:4000/posts?nocache=1234
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT21hciIsImlhdCI6MTc0MjI3MDk2MH0.XoMGHtD8YyBNVSrHJIs9-zyEadB-uFeRqflAf-jZc_0
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Omar"
+}
