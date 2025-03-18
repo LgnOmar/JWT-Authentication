@@ -13,8 +13,12 @@ const posts= [
 
 ]
 
-app.get('/post', (req,res)=> {
+app.get('/posts', (req,res)=> {
     res.json(posts);
+})
+
+app.get('login/', (req,res) => {
+    //Authenticate User
 })
 
 
